@@ -1,0 +1,277 @@
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on H:/Desktop/full_circuit/VGroupV_PCB3.brd
+Started on   Fri Mar 13 12:28:58 2020
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 29  Unplaced 0  Total 29
+        Nets:  W/Rats 39  No/Rats 0  Total 39
+        Pins:  W/Rats 124  No/Rats 0  Unused 25  Unplaced 0  Total 149
+        Equivalent ICs (1 pin = 1/14 EIC)  10
+        Router Keepin (in) (-2.4000,-1.4000) by (2.4000,1.4000)
+        Board area (sq in) 13.4
+        Board density (sq in/EIC) 1.263
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 85           0           85
+        Already Connected           85           0           85
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      70.45
+        Etch Length (inches)        99.49        0.00        99.49
+        Number of vias		    29           0           29
+        Vias per Connection          0.34        0.00         0.34
+        Smd pins with attached clines                         0
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 20.00 20.00 20.00  20.00 20.00   80.00  25.00
+        X grids:     10.00  Offset: 0.00
+        Y grids:     10.00  Offset: 0.00
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 20.00 20.00 20.00  20.00 20.00   80.00  25.00
+        X grids:     10.00  Offset: 0.00
+        Y grids:     10.00  Offset: 0.00
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 85           0           85
+        Already Connected           85           0           85
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        99.49        0.00        99.49
+        Number of vias		    29           0           29
+        Vias per Connection          0.34        0.00         0.34
+        Smd pins with attached clines                         0
+
+
+
+    Total cpu time - 0:4:4 hours
+    Total elapsed time - -1398:-42:-41 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Fri Mar 13 12:28:58 2020
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on H:/Desktop/full_circuit/VGroupV_PCB3.brd
+Started on   Fri Mar 13 12:28:58 2020
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 29  Unplaced 0  Total 29
+        Nets:  W/Rats 39  No/Rats 0  Total 39
+        Pins:  W/Rats 124  No/Rats 0  Unused 25  Unplaced 0  Total 149
+        Equivalent ICs (1 pin = 1/14 EIC)  10
+        Router Keepin (in) (-2.4000,-1.4000) by (2.4000,1.4000)
+        Board area (sq in) 13.4
+        Board density (sq in/EIC) 1.263
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 85           0           85
+        Already Connected           85           0           85
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      70.45
+        Etch Length (inches)        99.49        0.00        99.49
+        Number of vias		    29           0           29
+        Vias per Connection          0.34        0.00         0.34
+        Smd pins with attached clines                         0
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 20.00 20.00 20.00  20.00 20.00   80.00  25.00
+        X grids:     10.00  Offset: 0.00
+        Y grids:     10.00  Offset: 0.00
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 20.00 20.00 20.00  20.00 20.00   80.00  25.00
+        X grids:     10.00  Offset: 0.00
+        Y grids:     10.00  Offset: 0.00
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 85           0           85
+        Already Connected           85           0           85
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        99.49        0.00        99.49
+        Number of vias		    29           0           29
+        Vias per Connection          0.34        0.00         0.34
+        Smd pins with attached clines                         0
+
+
+
+    Total cpu time - 0:4:4 hours
+    Total elapsed time - -1398:-42:-41 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Fri Mar 13 12:28:58 2020
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on H:/Desktop/full_circuit/VGroupV_PCB3.brd
+Started on   Fri Mar 13 12:28:59 2020
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 29  Unplaced 0  Total 29
+        Nets:  W/Rats 39  No/Rats 0  Total 39
+        Pins:  W/Rats 124  No/Rats 0  Unused 25  Unplaced 0  Total 149
+        Equivalent ICs (1 pin = 1/14 EIC)  10
+        Router Keepin (in) (-2.4000,-1.4000) by (2.4000,1.4000)
+        Board area (sq in) 13.4
+        Board density (sq in/EIC) 1.263
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 85           0           85
+        Already Connected           85           0           85
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      70.45
+        Etch Length (inches)        91.52        0.00        91.52
+        Number of vias		    29           0           29
+        Vias per Connection          0.34        0.00         0.34
+        Smd pins with attached clines                         0
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 20.00 20.00 20.00  20.00 20.00   80.00  25.00
+        X grids:     10.00  Offset: 0.00
+        Y grids:     10.00  Offset: 0.00
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 20.00 20.00 20.00  20.00 20.00   80.00  25.00
+        X grids:     10.00  Offset: 0.00
+        Y grids:     10.00  Offset: 0.00
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 85           0           85
+        Already Connected           85           0           85
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        91.52        0.00        91.52
+        Number of vias		    29           0           29
+        Vias per Connection          0.34        0.00         0.34
+        Smd pins with attached clines                         0
+
+

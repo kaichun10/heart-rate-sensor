@@ -1,0 +1,27 @@
+\t (00:00:01) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Mar 13 12:59:27 2020
+\t (00:00:01)         Host=RANK709-14 User=2173845h Pid=10660 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe H:\Desktop\full_circuit\Deliverable\VGroupV_PCB.brd
+\t (00:00:01) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged VGroupV_PCB
+\d (00:00:02) Design opened: H:/Desktop/full_circuit/Deliverable/VGroupV_PCB.brd
+\i (00:00:02) trapsize 2664
+\i (00:00:02) trapsize 2737
+\i (00:00:02) trapsize 2664
+\i (00:00:02) trapsize 2465
+\i (00:00:02) trapsize 2465
+\i (00:00:02) generaledit 
+\i (00:00:30) 3d 
+\i (00:00:31) generaledit 
+\i (00:00:34) QtSignal pcb3dViewerCamMenu Bottom triggered
+\i (00:00:40) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:41) pick grid -34.64 1666.49
+\t (00:00:41) last pick:  -30.00 1670.00
+\i (00:00:45) save_as 
+\i (00:01:46) fillin "H:/Desktop/full_circuit/Deliverable/Final/VGroupV_PCBLayout.brd"
+\i (00:01:46) cd "H:/Desktop/full_circuit/Deliverable/Final"
+\i (00:01:46) generaledit 
+\i (00:01:53) exit 
+\t (00:01:53)     Journal end - Fri Mar 13 13:01:19 2020

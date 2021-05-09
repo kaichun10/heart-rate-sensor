@@ -1,0 +1,342 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Mar-10-2020 at 18:51:39 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='FULL_CIRCUIT';
+ POST_TIME='May 11 2019 05:12:43';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_GU-RC1000_1U':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS8383@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins8383@analog.\c.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins8383@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAPACITOR NON-POL_GU-RC1000_220':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS22569@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins22569@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins22569@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAPACITOR NON-POL_GU-RC1000_0.1':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS22585@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins22585@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins22585@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAPACITOR NON-POL_GU-RC1000_0.1':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS77275@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins77275@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins77275@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAPACITOR NON-POL_GU-RC1000_10U':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS77291@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins77291@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins77291@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_ELECT_0_GU-CAPCYL200_220U':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS4061@FULL_CIRCUIT.C_ELECT_0.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins4061@full_circuit.\c_elect_0.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins4061@full_circuit.\c_elect_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_ELECT_0_GU-CAPCYL200_220U':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS4011@FULL_CIRCUIT.C_ELECT_0.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins4011@full_circuit.\c_elect_0.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins4011@full_circuit.\c_elect_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_GU-RC500_1N':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS8103@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins8103@analog.\c.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins8103@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_GU-RC500_1N':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS8119@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins8119@analog.\c.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins8119@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ DN1 'LEDARR-8X8_GU-DIPLONG16-1100_LE':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS31212@EDP2CAPTURELIB.LEDARR-8X8.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins31212@edp2capturelib.\ledarr-8x8.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins31212@edp2capturelib.\ledarr-8x8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_GU-TERMINAL2-200_BATTERY 9':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS26369@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins26369@connector.\con2.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins26369@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON4_GU-MOLEX4_CON4':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS57877@CONNECTOR.CON4.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins57877@connector.\con4.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins57877@connector.\con4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_GU-RC400_10K':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS8399@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins8399@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins8399@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_GU-RC400_3K3':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS47395@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins47395@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins47395@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_GU-RC400_50K':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS8167@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins8167@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins8167@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_GU-RC400_100K':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS3979@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins3979@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins3979@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_GU-RC400_100K':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS4081@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins4081@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins4081@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_GU-RC400_1K':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS8347@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins8347@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins8347@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_GU-RC400_50K':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS8199@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins8199@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins8199@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_GU-RC400_100':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS56275@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins56275@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins56275@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_GU-RC400_10K':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS56241@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins56241@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins56241@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_GU-RC400_30K':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS38422@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins38422@analog.\r.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins38422@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW_SL_SPDT_GU-SW-SLIDE-SPDT_SW_':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS26396@DISCRETE.SW_SL_SPDT.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins26396@discrete.\sw_sl_spdt.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins26396@discrete.\sw_sl_spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'SW PUSHBUTTON-SPST-2/SM_1_GU-PU':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS29224@FULL_CIRCUIT.SW PUSHBUTTON-SPST-2/SM_1.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins29224@full_circuit.\sw pushbutton-spst-2/sm_1.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins29224@full_circuit.\sw pushbutton-spst-2/sm_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'FRDM-KL25Z-ARDUINO_GU-FRDM-ARDU':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS88@EDP2CAPTURELIB.FRDM-KL25Z-ARDUINO.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins88@edp2capturelib.\frdm-kl25z-arduino.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins88@edp2capturelib.\frdm-kl25z-arduino.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U10 'MCP6292_GU-DIPSOCK8_MCP6292':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS48674@EDP2CAPTURELIB.MCP6292.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins48674@edp2capturelib.\mcp6292.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins48674@edp2capturelib.\mcp6292.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS48715@EDP2CAPTURELIB.MCP6292.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins48715@edp2capturelib.\mcp6292.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins48715@edp2capturelib.\mcp6292.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U5 'LM2937_0_GU-LM2937_LM2937':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS645@FULL_CIRCUIT.LM2937_0.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins645@full_circuit.\lm2937_0.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins645@full_circuit.\lm2937_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'MAX7221_7_GU-DIP24_MAX7221':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS11302@FULL_CIRCUIT.MAX7221_7.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins11302@full_circuit.\max7221_7.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins11302@full_circuit.\max7221_7.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U9 '74HCT04_GU-DIPSOCK14_74HCT04':;
+
+SECTION_NUMBER 1
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS12752@74HCT.74HCT04.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins12752@\74hct\.\74hct04.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins12752@\74hct\.\74hct04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS12810@74HCT.74HCT04.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins12810@\74hct\.\74hct04.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins12810@\74hct\.\74hct04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS12866@74HCT.74HCT04.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins12866@\74hct\.\74hct04.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins12866@\74hct\.\74hct04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS12922@74HCT.74HCT04.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins12922@\74hct\.\74hct04.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins12922@\74hct\.\74hct04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+SECTION_NUMBER 5
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS12978@74HCT.74HCT04.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins12978@\74hct\.\74hct04.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins12978@\74hct\.\74hct04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='E';
+
+SECTION_NUMBER 6
+ '@FULL_CIRCUIT.SCHEMATIC1(SCH_1):INS13034@74HCT.74HCT04.NORMAL(CHIPS)':
+ C_PATH='@full_circuit.schematic1(sch_1):ins13034@\74hct\.\74hct04.normal\(chips)',
+ P_PATH='@full_circuit.schematic1(sch_1):page1_ins13034@\74hct\.\74hct04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='F';
+
+END.

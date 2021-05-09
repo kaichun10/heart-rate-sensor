@@ -1,0 +1,207 @@
+\t (00:00:02) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Fri Mar 13 12:37:41 2020
+\t (00:00:02)         Host=RANK709-14 User=2173845h Pid=8368 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe H:\Desktop\full_circuit\VGroupV_PCB3.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:00:04) fillin yes 
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged VGroupV_PCB3
+\d (00:00:04) Design opened: H:/Desktop/full_circuit/VGroupV_PCB3.brd
+\i (00:00:04) trapsize 3569
+\i (00:00:04) trapsize 3668
+\i (00:00:04) trapsize 3569
+\i (00:00:04) trapsize 3303
+\i (00:00:04) trapsize 4930
+\i (00:00:04) generaledit 
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -431.55 -493.04
+\i (00:00:05) trapsize 2465
+\i (00:00:15) xhilite 
+\i (00:00:15) xname_flush 
+\i (00:00:15) done 
+\i (00:00:15) generaledit 
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 1984.35 690.26
+\i (00:00:23) trapsize 1233
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 1984.35 690.26
+\i (00:00:23) trapsize 616
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 1984.35 690.26
+\i (00:00:23) trapsize 1233
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 1984.35 690.27
+\i (00:00:23) trapsize 2465
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 460.86 424.03
+\i (00:00:25) trapsize 4930
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -1259.86 1617.17
+\i (00:00:26) trapsize 2465
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out -1595.13 1129.07
+\i (00:00:27) trapsize 4930
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in -2354.41 138.05
+\i (00:00:27) trapsize 2465
+\i (00:01:12) save_as 
+\i (00:01:23) fillin "1234.brd"
+\i (00:01:24) generaledit 
+\i (00:01:30) add text 
+\t (00:01:30) Pick text location.
+\i (00:01:32) zoom out 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom out -1634.57 256.39
+\i (00:01:32) trapsize 4930
+\i (00:01:32) zoom in 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom in -1358.47 276.10
+\i (00:01:32) trapsize 2465
+\i (00:01:37) pick grid -2211.42 512.76
+\t (00:01:37) last pick:  -2210.00 510.00
+\t (00:01:37) Enter text string.
+\i (00:01:38) setwindow pcb
+\i (00:01:38) pick grid -2216.35 473.32
+\t (00:01:38) last pick:  -2220.00 470.00
+\t (00:01:38) Enter text string.
+\i (00:01:40) setwindow pcb
+\i (00:01:40) pick grid -2181.84 448.67
+\t (00:01:40) last pick:  -2180.00 450.00
+\t (00:01:40) Enter text string.
+\i (00:01:41) setwindow pcb
+\i (00:01:41) pick grid -2196.63 463.46
+\t (00:01:41) last pick:  -2200.00 460.00
+\t (00:01:41) Enter text string.
+\i (00:01:42) setwindow pcb
+\i (00:01:42) pick grid -2206.49 443.74
+\t (00:01:42) last pick:  -2210.00 440.00
+\t (00:01:42) Enter text string.
+\i (00:02:11) setwindow form.mini
+\i (00:02:11) FORM mini class ETCH 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) add text 
+\t (00:02:14) Pick text location.
+\i (00:02:21) setwindow form.mini
+\i (00:02:21) FORM mini text_block 5 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) pick grid -2196.63 468.39
+\t (00:02:26) last pick:  -2200.00 470.00
+\t (00:02:26) Enter text string.
+\i (00:07:27) setwindow pcb
+\i (00:07:27) pick grid 3029.59 207.08
+\t (00:07:27) last pick:  3030.00 210.00
+\t (00:07:27) Enter text string.
+\i (00:08:02) setwindow form.mini
+\i (00:08:02) FORM mini text_block 7 
+\i (00:08:04) setwindow pcb
+\i (00:08:04) pick grid -2162.12 458.53
+\t (00:08:04) last pick:  -2160.00 460.00
+\t (00:08:04) Enter text string.
+\i (00:08:05) setwindow pcb
+\i (00:08:05) pick grid -2181.84 414.15
+\t (00:08:05) last pick:  -2180.00 410.00
+\t (00:08:05) Enter text string.
+\i (00:08:06) setwindow pcb
+\i (00:08:06) pick grid -2221.28 374.71
+\t (00:08:06) last pick:  -2220.00 370.00
+\t (00:08:06) Enter text string.
+\i (00:08:37) setwindow form.mini
+\i (00:08:37) FORM mini text_block 4 
+\i (00:08:38) setwindow pcb
+\i (00:08:38) pick grid -2216.35 448.67
+\t (00:08:38) last pick:  -2220.00 450.00
+\t (00:08:38) Enter text string.
+\i (00:08:39) setwindow pcb
+\i (00:08:39) pick grid -2206.49 443.74
+\t (00:08:39) last pick:  -2210.00 440.00
+\t (00:08:39) Enter text string.
+\i (00:08:40) setwindow pcb
+\i (00:08:40) pick grid -2211.42 453.60
+\t (00:08:40) last pick:  -2210.00 450.00
+\t (00:08:40) Enter text string.
+\i (00:09:43) setwindow pcb
+\i (00:09:43) pick -2210.00 450.00
+\t (00:09:43) Enter text string.
+\i (00:09:52) setwindow pcb
+\i (00:09:52) pick -2210.00 371.00
+\t (00:09:52) Enter text string.
+\i (00:09:58) setwindow pcb
+\i (00:09:58) pick grid -2058.58 1922.86
+\t (00:09:58) last pick:  -2060.00 1920.00
+\i (00:09:58) setwindow pcb
+\i (00:09:58) pick -2210.00 292.00
+\t (00:09:58) Enter text string.
+\i (00:10:02) setwindow pcb
+\i (00:10:02) shape add rect 
+\i (00:10:02) zoom out 1 
+\i (00:10:02) setwindow pcb
+\i (00:10:02) zoom out -1807.13 1474.19
+\i (00:10:02) trapsize 4930
+\i (00:10:04) pick grid -2768.56 1774.94
+\t (00:10:04) last pick:  -2770.00 1770.00
+\i (00:10:05) pick grid 2812.64 -1755.22
+\t (00:10:05) last pick:  2810.00 -1760.00
+\i (00:10:08) undo 
+\i (00:10:08) trapsize 2465
+\i (00:10:08) generaledit 
+\i (00:10:12) shape add rect 
+\i (00:10:15) setwindow form.mini
+\i (00:10:15) FORM mini dyns_netname_list  
+\i (00:10:18) fillin "Gnd"
+\t (00:10:18) Assigning selected shape to net: GND
+\i (00:10:23) setwindow pcb
+\i (00:10:23) pick grid -2655.16 1696.06
+\t (00:10:23) last pick:  -2660.00 1700.00
+\i (00:10:24) pick grid 2778.14 -1720.71
+\t (00:10:24) last pick:  2780.00 -1720.00
+\i (00:10:26) undo 
+\i (00:10:26) trapsize 2465
+\i (00:10:26) generaledit 
+\i (00:10:26) pick grid -584.39 1893.27
+\t (00:10:26) last pick:  -580.00 1890.00
+\i (00:10:28) undo 
+\i (00:10:29) trapsize 2465
+\i (00:10:29) generaledit 
+\i (00:10:36) auto_route 
+\w (00:10:37) Xtalk table in drawing H:/Desktop/full_circuit/1234.brd does not exist. For xtalk estimation or xtalk DRC update, xtalk tables must be generated.
+   (00:10:37) Loading vse.cxt 
+\i (00:10:39) setwindow form.vse_armain
+\i (00:10:39) FORM vse_armain execute  
+\i (00:10:53) FORM vse_armain close  
+\i (00:10:53) setwindow pcb
+\i (00:10:53) generaledit 
+\i (00:10:55) undo 
+\i (00:10:55) generaledit 
+\i (00:10:56) undo 
+\i (00:10:56) generaledit 
+\i (00:10:56) undo 
+\i (00:10:56) generaledit 
+\i (00:10:56) undo 
+\i (00:10:56) generaledit 
+\i (00:10:57) undo 
+\i (00:10:57) generaledit 
+\i (00:10:57) undo 
+\i (00:10:57) generaledit 
+\i (00:10:57) undo 
+\i (00:10:57) generaledit 
+\i (00:10:57) undo 
+\i (00:10:57) generaledit 
+\i (00:11:02) auto_route 
+\i (00:11:04) setwindow form.vse_armain
+\i (00:11:04) FORM vse_armain close  
+\i (00:11:04) setwindow pcb
+\i (00:11:04) generaledit 
+\i (00:11:07) exit 
+\e (00:11:07) Do you want to save the changes you made to H:/Desktop/full_circuit/1234.brd?
+\i (00:11:09) fillin no 
+\t (00:11:10)     Journal end - Fri Mar 13 12:48:49 2020

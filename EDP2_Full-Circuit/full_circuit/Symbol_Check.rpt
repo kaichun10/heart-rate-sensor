@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : VGroupV_PCB.brd                               )
+(    Software Version : 17.2S055                                      )
+(    Date/Time        : Fri Mar 13 11:40:52 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	Q:/allegro/PCB_LIB/symbols/
+	.
+	symbols
+	..
+	../symbols
+	C:/Cadence/SPB_17.2/share/local/pcb/symbols
+	C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+	C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols
+
+
+All Symbols Found
+
+Total symbols placed:      28 out of 29
+
+
+Symbol Found:  C3	- Q:/allegro/PCB_LIB/symbols/gu-capcyl200.psm

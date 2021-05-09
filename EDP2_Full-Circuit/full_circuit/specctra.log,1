@@ -1,0 +1,2475 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Fri Mar 13 12:27:21 2020
+# 
+# Allegro PCB Router v17-2-51 made 2019/01/15 at 11:46:29
+# Running on: rank709-14, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Batch File Name: pasde.do
+# Did File Name: H:/Desktop/full_circuit/specctra.did
+# Current time = Fri Mar 13 12:27:22 2020
+# PCB H:/Desktop/full_circuit
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=-2640.0000 ylo=-1540.0000 xhi=2640.0000 yhi=1540.0000
+# Total 15 Images Consolidated.
+# Via 'GU-VIA80' z=1, 2 xlo=-40.0000 ylo=-40.0000 xhi= 40.0000 yhi= 40.0000
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# Wires Processed 0, Vias Processed 0
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 29, Images Processed 43, Padstacks Processed 14
+# Nets Processed 39, Net Terminals 124
+# PCB Area=13440000.000  EIC=10  Area/EIC=1344000.000  SMDs=0
+# Total Pin Count: 149
+# Signal Connections Created 85
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 85
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 67504.8900 Horizontal 42409.8280 Vertical 25095.0620
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 67504.8900 Horizontal 40754.8900 Vertical 26750.0000
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File H:/Desktop/full_circuit\VGroupV_PCB3_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/2173845h/AppData/Local/Temp/#Taaaaba11128.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Command smart_route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command smart_route will ignore pcb layer rule(s), mcm via rule(s)
+# Smart Route: Executing bus diagonal.
+# Diagonal wire corners are preferred.
+# Current time = Fri Mar 13 12:27:23 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 85
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 67504.8900 Horizontal 42409.8280 Vertical 25095.0620
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 67504.8900 Horizontal 40754.8900 Vertical 26750.0000
+# Attempts 0 Successes 0 Failures 0 Vias 0
+# 90 degree wire corners are preferred.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 85
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 67504.8900 Horizontal 42409.8280 Vertical 25095.0620
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 67504.8900 Horizontal 40754.8900 Vertical 26750.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 90 degree wire corners are preferred.
+# Smart Route: Executing 25 route passes.
+# Current time = Fri Mar 13 12:27:23 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 85
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 67504.8900 Horizontal 42409.8280 Vertical 25095.0620
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 67504.8900 Horizontal 40754.8900 Vertical 26750.0000
+# Start Route Pass 1 of 25
+# Routing 85 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 11 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 21 (Cross: 21, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 11
+# Attempts 85 Successes 74 Failures 11 Vias 11
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# <<WARNING:>> Smart Route: Unroute count 11 is very high after 1 passes. 
+# Design may not reach 100%. 
+# Check placement, components outside boundary, design rules, keepout positions
+# Start Route Pass 2 of 25
+# Routing 104 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 12 bend points have been removed.
+# 0 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 40 (Cross: 36, Clear: 4, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 95 Successes 94 Failures 1 Vias 10
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Conflict Reduction -0.9047
+# End Pass 2 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# <<WARNING:>> Smart Route: Conflict reduction rate 0 is very low 
+# after 2 passes. 
+# Design may not reach 100%. 
+# Check number of layers, grids and design rules.
+# Start Route Pass 3 of 25
+# Routing 110 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 26 (Cross: 24, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 99 Successes 99 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Conflict Reduction  0.3500
+# End Pass 3 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# <<WARNING:>> Smart Route: Average reduction ratio only 18 after 3 passes. 
+# Design may converge very slowly. 
+# Monitor status file carefully.
+# Start Route Pass 4 of 25
+# Routing 117 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 21 (Cross: 13, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 100 Successes 100 Failures 0 Vias 16
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Conflict Reduction  0.1923
+# End Pass 4 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# <<WARNING:>> Smart Route: Average reduction ratio only 18 after 4 passes. 
+# Design may converge very slowly. 
+# Monitor status file carefully.
+# Start Route Pass 5 of 25
+# Routing 119 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 7 bend points have been removed.
+# 0 bend points have been removed.
+# 7 bend points have been removed.
+# Total Conflicts: 13 (Cross: 12, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 99 Successes 99 Failures 0 Vias 16
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Conflict Reduction  0.3810
+# End Pass 5 of 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# <<WARNING:>> Smart Route: Average reduction ratio only 23 after 5 passes. 
+# Design may converge very slowly. 
+# Monitor status file carefully.
+# Start Route Pass 6 of 25
+# Routing 35 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 5 (Cross: 2, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 32 Successes 32 Failures 0 Vias 21
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 6 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 6 passes.
+# Start Route Pass 7 of 25
+# Routing 16 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 4 (Cross: 0, Clear: 4, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 14 Successes 14 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 7 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 7 passes.
+# Start Route Pass 8 of 25
+# Routing 15 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 14 Successes 14 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 8 of 25
+# <<ERROR:>> H:/Desktop/full_circuit\bestsave.w cannot be opened for write.
+# <<WARNING:>> Error writing file H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 8 passes.
+# Start Route Pass 9 of 25
+# Routing 4 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 9 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 9 passes.
+# Start Route Pass 10 of 25
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 7 Successes 7 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 10 of 25
+# Smart Route: Smart_route progressing normally after 10 passes.
+# Start Route Pass 11 of 25
+# Routing 6 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 11 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 11 passes.
+# Start Route Pass 12 of 25
+# Routing 7 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 22
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 12 of 25
+# Smart Route: Smart_route progressing normally after 12 passes.
+# Start Route Pass 13 of 25
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 5 Successes 5 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 13 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 13 passes.
+# Start Route Pass 14 of 25
+# Routing 7 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 14 of 25
+# Smart Route: Smart_route progressing normally after 14 passes.
+# Start Route Pass 15 of 25
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 4 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 5 Successes 5 Failures 0 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 15 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 15 passes.
+# Start Route Pass 16 of 25
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 7 Successes 7 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 16 of 25
+# Smart Route: Smart_route progressing normally after 16 passes.
+# Start Route Pass 17 of 25
+# Routing 7 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 17 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 17 passes.
+# Start Route Pass 18 of 25
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 18 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 18 passes.
+# Start Route Pass 19 of 25
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 19 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 19 passes.
+# Start Route Pass 20 of 25
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 20 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 20 passes.
+# Start Route Pass 21 of 25
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 21 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 21 passes.
+# Start Route Pass 22 of 25
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 7 Successes 7 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 22 of 25
+# Smart Route: Smart_route progressing normally after 22 passes.
+# Start Route Pass 23 of 25
+# Routing 6 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 23 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 23 passes.
+# Start Route Pass 24 of 25
+# Routing 7 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 22
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 24 of 25
+# Smart Route: Smart_route progressing normally after 24 passes.
+# Start Route Pass 25 of 25
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 5 Successes 5 Failures 0 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 25 of 25
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Smart Route: Smart_route progressing normally after 25 passes.
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:03
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 22, at vias 5 Total Vias 24
+# Percent Connected   98.82
+# Manhattan Length 69636.3500 Horizontal 43125.3680 Vertical 26510.9820
+# Routed Length 87928.8500 Horizontal 47565.2100 Vertical 40363.6400
+# Ratio Actual / Manhattan   1.2627
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Mar 13 12:27:25 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 22, at vias 5 Total Vias 24
+# Percent Connected   98.82
+# Manhattan Length 69636.3500 Horizontal 43125.3680 Vertical 26510.9820
+# Routed Length 87928.8500 Horizontal 47565.2100 Vertical 40363.6400
+# Ratio Actual / Manhattan   1.2627
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 126 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 106 Successes 104 Failures 2 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 128 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 105 Successes 101 Failures 4 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:03
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 69007.7100 Horizontal 42703.4160 Vertical 26304.2940
+# Routed Length 86150.0700 Horizontal 46335.0900 Vertical 39814.9800
+# Ratio Actual / Manhattan   1.2484
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 50 route passes.
+# Current time = Fri Mar 13 12:27:26 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 69007.7100 Horizontal 42703.4160 Vertical 26304.2940
+# Routed Length 86150.0700 Horizontal 46335.0900 Vertical 39814.9800
+# Ratio Actual / Manhattan   1.2484
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 50
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 50
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:03
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86150.0700 Horizontal 46335.0900 Vertical 39814.9800
+# Ratio Actual / Manhattan   1.2491
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# <<WARNING:>> Smart Route: No real conflict reduction achieved in previous 5 passes. 
+# Automatically forcing convergence.
+# Current time = Fri Mar 13 12:27:26 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86150.0700 Horizontal 46335.0900 Vertical 39814.9800
+# Ratio Actual / Manhattan   1.2491
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 5
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 22
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 3 of 5
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 4 of 5
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 5 (Cross: 0, Clear: 5, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 7 Successes 7 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    | 29|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    | 30|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 31|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 32|     0|     5|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 33|     0|     1|   0|    0|   22|    0|   0| 80|  0:00:00|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 22
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46370.1900 Vertical 39854.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Current time = Fri Mar 13 12:27:27 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 22
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46370.1900 Vertical 39854.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 5
+# Routing 4 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 7 Successes 7 Failures 0 Vias 21
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 6 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 4 of 5
+# Routing 7 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 21
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 6 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    | 29|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    | 30|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 31|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 32|     0|     5|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 33|     0|     1|   0|    0|   22|    0|   0| 80|  0:00:00|  0:00:04|
+# Route    | 34|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 35|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 36|     0|     1|   0|    0|   22|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 37|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 38|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Current time = Fri Mar 13 12:27:27 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 5
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 3 of 5
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 4 of 5
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 5 of 5
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    | 29|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    | 30|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 31|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 32|     0|     5|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 33|     0|     1|   0|    0|   22|    0|   0| 80|  0:00:00|  0:00:04|
+# Route    | 34|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 35|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 36|     0|     1|   0|    0|   22|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 37|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 38|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 39|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 40|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 41|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 42|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 43|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 22
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Current time = Fri Mar 13 12:27:28 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 22
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 5
+# Routing 4 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 7 Successes 7 Failures 0 Vias 21
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 6 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 4 of 5
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 7 Successes 7 Failures 0 Vias 21
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 6 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    | 29|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    | 30|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 31|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 32|     0|     5|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 33|     0|     1|   0|    0|   22|    0|   0| 80|  0:00:00|  0:00:04|
+# Route    | 34|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 35|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 36|     0|     1|   0|    0|   22|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 37|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 38|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 39|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 40|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 41|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 42|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 43|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 44|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 45|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 46|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 47|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 48|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Current time = Fri Mar 13 12:27:28 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 5
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 7 Successes 7 Failures 0 Vias 21
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 6 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 4 of 5
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 7 Successes 7 Failures 0 Vias 21
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 6 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 6 Successes 6 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    | 29|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    | 30|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 31|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 32|     0|     5|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 33|     0|     1|   0|    0|   22|    0|   0| 80|  0:00:00|  0:00:04|
+# Route    | 34|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 35|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 36|     0|     1|   0|    0|   22|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 37|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 38|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 39|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 40|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 41|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 42|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 43|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 44|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 45|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 46|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 47|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 48|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 49|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 50|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 51|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 52|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 53|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Current time = Fri Mar 13 12:27:29 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 5
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 3 of 5
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 4 of 5
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 5 of 5
+# Routing 5 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 4 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    | 29|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    | 30|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 31|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 32|     0|     5|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 33|     0|     1|   0|    0|   22|    0|   0| 80|  0:00:00|  0:00:04|
+# Route    | 34|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 35|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 36|     0|     1|   0|    0|   22|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 37|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 38|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 39|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 40|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 41|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 42|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 43|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 44|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 45|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 46|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 47|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 48|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 49|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 50|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 51|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 52|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 53|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 54|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 55|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 56|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 57|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 58|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 22
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Current time = Fri Mar 13 12:27:30 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 22
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 86225.1700 Horizontal 46450.1900 Vertical 39774.9800
+# Ratio Actual / Manhattan   1.2502
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 5
+# Routing 4 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 4 Successes 3 Failures 1 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File H:/Desktop/full_circuit\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 7 Successes 6 Failures 1 Vias 21
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 6 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 6 Successes 5 Failures 1 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 1 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 1 Successes 0 Failures 1 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 1 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 1 Successes 0 Failures 1 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    | 29|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    | 30|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 31|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 32|     0|     5|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 33|     0|     1|   0|    0|   22|    0|   0| 80|  0:00:00|  0:00:04|
+# Route    | 34|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 35|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 36|     0|     1|   0|    0|   22|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 37|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 38|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 39|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 40|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 41|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 42|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 43|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 44|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 45|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 46|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 47|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 48|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 49|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 50|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 51|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 52|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 53|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 54|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 55|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 56|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 57|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 58|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 59|     0|     1|   1|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 60|     0|     2|   1|    1|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 61|     0|     0|   1|    1|   23|    0|   0|100|  0:00:00|  0:00:04|
+# Route    | 62|     0|     0|   1|    1|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 63|     0|     0|   1|    1|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 1
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 84470.5600 Horizontal 45810.5800 Vertical 38659.9800
+# Ratio Actual / Manhattan   1.2248
+# Unconnected Length 1039.6100 Horizontal 639.6100 Vertical 400.0000
+# <<ERROR:>> Smart Route: Unable to reach 100% with smart_route. 
+# Check placement, rules, grids, keepouts
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Mar 13 12:27:30 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 1
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68967.7100 Horizontal 42678.6420 Vertical 26289.0680
+# Routed Length 84470.5600 Horizontal 45810.5800 Vertical 38659.9800
+# Ratio Actual / Manhattan   1.2248
+# Unconnected Length 1039.6100 Horizontal 639.6100 Vertical 400.0000
+# Start Clean Pass 1 of 2
+# Routing 125 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 105 Successes 104 Failures 1 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 126 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 106 Successes 102 Failures 4 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    | 29|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    | 30|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 31|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 32|     0|     5|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 33|     0|     1|   0|    0|   22|    0|   0| 80|  0:00:00|  0:00:04|
+# Route    | 34|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 35|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 36|     0|     1|   0|    0|   22|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 37|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 38|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 39|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 40|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 41|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 42|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 43|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 44|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 45|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 46|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 47|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 48|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 49|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 50|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 51|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 52|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 53|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 54|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 55|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 56|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 57|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 58|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 59|     0|     1|   1|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 60|     0|     2|   1|    1|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 61|     0|     0|   1|    1|   23|    0|   0|100|  0:00:00|  0:00:04|
+# Route    | 62|     0|     0|   1|    1|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 63|     0|     0|   1|    1|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Clean    | 64|     0|     0|   1|    1|   23|    0|   0|   |  0:00:00|  0:00:04|
+# Clean    | 65|     0|     0|   4|    1|   23|    0|   0|   |  0:00:00|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 1
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68877.7200 Horizontal 42624.5580 Vertical 26253.1620
+# Routed Length 84212.0100 Horizontal 45632.0400 Vertical 38579.9700
+# Ratio Actual / Manhattan   1.2226
+# Unconnected Length 1039.6100 Horizontal 639.6100 Vertical 400.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Mar 13 12:27:31 2020
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'GU-VIA80'
+# BOTTOM  'GU-VIA80'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 1
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68877.7200 Horizontal 42624.5580 Vertical 26253.1620
+# Routed Length 84212.0100 Horizontal 45632.0400 Vertical 38579.9700
+# Ratio Actual / Manhattan   1.2226
+# Unconnected Length 1039.6100 Horizontal 639.6100 Vertical 400.0000
+# Start Clean Pass 1 of 2
+# Routing 125 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 106 Successes 105 Failures 1 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 126 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 105 Successes 101 Failures 4 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   85|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    21|     0|  11|   11|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    36|     4|   1|    1|   10|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  3|    24|     2|   0|    0|   14|    0|   0| 35|  0:00:00|  0:00:00|
+# Route    |  4|    13|     8|   0|    0|   16|    0|   0| 19|  0:00:01|  0:00:01|
+# Route    |  5|    12|     1|   0|    0|   16|    0|   0| 38|  0:00:00|  0:00:01|
+# Route    |  6|     2|     3|   0|    0|   21|    0|   0| 61|  0:00:00|  0:00:01|
+# Route    |  7|     0|     4|   0|    0|   22|    0|   0| 20|  0:00:00|  0:00:01|
+# Route    |  8|     0|     1|   0|    0|   23|    0|   0| 75|  0:00:00|  0:00:01|
+# Route    |  9|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 10|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    | 11|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:01|
+# Route    | 12|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:02|
+# Route    | 13|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 14|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 15|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 16|     0|     2|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 17|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 18|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 19|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 20|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 21|     0|     1|   0|    0|   24|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 22|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:02|
+# Route    | 23|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:02|
+# Route    | 24|     0|     2|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    | 25|     0|     1|   0|    0|   24|    0|   0| 50|  0:00:00|  0:00:03|
+# Clean    | 26|     0|     1|   2|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Clean    | 27|     0|     1|   4|    0|   23|    0|   0|   |  0:00:00|  0:00:03|
+# Route    | 28|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    | 29|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    | 30|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 31|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 32|     0|     5|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 33|     0|     1|   0|    0|   22|    0|   0| 80|  0:00:00|  0:00:04|
+# Route    | 34|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 35|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 36|     0|     1|   0|    0|   22|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 37|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 38|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 39|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 40|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 41|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 42|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 43|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 44|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 45|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 46|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 47|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 48|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 49|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 50|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 51|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 52|     0|     2|   0|    0|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 53|     0|     1|   0|    0|   23|    0|   0| 50|  0:00:00|  0:00:04|
+# Route    | 54|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 55|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 56|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 57|     0|     1|   0|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 58|     0|     1|   0|    0|   22|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 59|     0|     1|   1|    0|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 60|     0|     2|   1|    1|   21|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 61|     0|     0|   1|    1|   23|    0|   0|100|  0:00:00|  0:00:04|
+# Route    | 62|     0|     0|   1|    1|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 63|     0|     0|   1|    1|   23|    0|   0|  0|  0:00:00|  0:00:04|
+# Clean    | 64|     0|     0|   1|    1|   23|    0|   0|   |  0:00:00|  0:00:04|
+# Clean    | 65|     0|     0|   4|    1|   23|    0|   0|   |  0:00:00|  0:00:04|
+# Clean    | 66|     0|     0|   1|    1|   23|    0|   0|   |  0:00:00|  0:00:04|
+# Clean    | 67|     0|     0|   4|    1|   23|    0|   0|   |  0:00:00|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 1
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 21, at vias 4 Total Vias 23
+# Percent Connected   98.82
+# Manhattan Length 68847.7200 Horizontal 42587.5080 Vertical 26260.2120
+# Routed Length 84156.9900 Horizontal 45592.0400 Vertical 38564.9500
+# Ratio Actual / Manhattan   1.2224
+# Unconnected Length 1039.6100 Horizontal 639.6100 Vertical 400.0000
+# Smart Route: Smart_route finished, completion rate: 98.82.
+write routes (changed_only) (reset_changed) C:/Users/2173845h/AppData/Local/Temp/#Taaaabb11128.tmp
+# Routing Written to File C:/Users/2173845h/AppData/Local/Temp/#Taaaabb11128.tmp
+# Loading Do File C:/Users/2173845h/AppData/Local/Temp/#Taaaabd11128.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net N1135615 Selected.
+# Net N28319 Selected.
+# Net N13195 Selected.
+# Net N08145 Selected.
+# Net N08433 Selected.
+# Net N28309 Selected.
+# Net N08137 Selected.
+# Net N13184 Selected.
+# Net N13188 Selected.
+# Net N29244 Selected.
+# Net GND Selected.
+# Net N1135618 Selected.
+# Net N1135620 Selected.
+# Net N68469 Selected.
+# Net N1135619 Selected.
+# Net N1135614 Selected.
+# Net N1135617 Selected.
+# Net N1135613 Selected.
+# Net SDI Selected.
+# Net N25478 Selected.
+# Net N1135616 Selected.
+# Net N25464 Selected.
+# Net N25485 Selected.
+# Net N25471 Selected.
+# Net VOUT Selected.
+# Net N25169 Selected.
+# Net CS Selected.
+# Net N25499 Selected.
+# Net N25451 Selected.
+# Net MOSI Selected.
+# Net LOAD Selected.
+# Net VIN Selected.
+# Net VCC Selected.
+# Net VREF Selected.
+# Net 3V3 Selected.
+# Net N10280 Selected.
+# Net SCLK Selected.
+# Net N08157 Selected.
+# All Selected Wires Unprotected.
+# Command delete cmd detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command delete cmd will ignore pcb layer rule(s), mcm via rule(s)
+# All unprotected selected wires were deleted.
+# Current time = Fri Mar 13 12:28:05 2020
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 39 Connections 85 Unroutes 85
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 67504.8900 Horizontal 42409.8280 Vertical 25095.0620
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 67504.8900 Horizontal 40754.8900 Vertical 26750.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command delete cmd detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command delete cmd will ignore pcb layer rule(s), mcm via rule(s)
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Fri Mar 13 12:28:05 2020
+# Nets Processed 40, Net Terminals 149
+# Signal Connections Created 85
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=20.0000, Clearance=20.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- H:/Desktop/full_circuit\VGroupV_PCB3.dsn
+# Nets 40 Connections 85 Unroutes 85
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 67504.8900 Horizontal 42409.8280 Vertical 25095.0620
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 67504.8900 Horizontal 40754.8900 Vertical 26750.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+quit

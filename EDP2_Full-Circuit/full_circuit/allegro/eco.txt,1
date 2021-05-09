@@ -1,0 +1,54 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  H:/Desktop/full_circuit/allegro/VGroupVBoard_EDP2.brd                       |
+|                                                    Thu Mar 12 16:38:33 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAPACITOR NON-POL_GU-CAPCYL20_1
+ CAPACITOR NON-POL_GU-CAPCYL200_
+ CAPACITOR NON-POL_GU-RC200_0.1U
+ C_GU-RC500_1U
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  H:/Desktop/full_circuit/allegro/VGroupVBoard_EDP2.brd                       |
+|                                                    Thu Mar 12 16:38:33 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_GU-RC500_1U         -1800.0   30.00 C_GU-RC1000_1U
+ C10                 CAPACITOR NON-POL_GU-CAPCYL200_  560.00 -410.00 CAPACITOR NON-POL_GU-RC1000_220
+ C11                 CAPACITOR NON-POL_GU-RC200_0.1U -1800.0  280.00 CAPACITOR NON-POL_GU-RC1000_0.1
+ C16                 CAPACITOR NON-POL_GU-RC200_0.1U -490.00 1140.00 CAPACITOR NON-POL_GU-RC1000_0.1
+ C17                 CAPACITOR NON-POL_GU-CAPCYL20_1 -490.00  890.00 CAPACITOR NON-POL_GU-RC1000_10U
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  H:/Desktop/full_circuit/allegro/VGroupVBoard_EDP2.brd                       |
+|                                                    Thu Mar 12 16:38:33 2020  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2           -1800.0   30.00 PRIM_FILE      .\pstchip.dat
+ C10.2           560.00 -410.00 PRIM_FILE      .\pstchip.dat
+ C11.2          -1800.0  280.00 PRIM_FILE      .\pstchip.dat
+ C16.2          -490.00 1140.00 PRIM_FILE      .\pstchip.dat
+ C17.2          -490.00  890.00 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       4                                        |
+|       Components changed    :       5                                        |
+|       Slot property added   :       5                                        |
+|                                                                              |
+|   Total ECO changes reported:      14                                        |
+|------------------------------------------------------------------------------|

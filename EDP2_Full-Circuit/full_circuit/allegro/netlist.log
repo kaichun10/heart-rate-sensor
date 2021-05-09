@@ -1,0 +1,21 @@
+{ Using PSTWRITER 17.2.0 d001Mar-12-2020 at 16:42:50 }
+
+#1 WARNING(ORCAP-36006): Part Name "CAPACITOR NON-POL_GU-CAPCYL200_220U" is renamed to "CAPACITOR NON-POL_GU-CAPCYL200_".
+#2 WARNING(ORCAP-36006): Part Name "CAPACITOR NON-POL_GU-CAPCYL200_10U" is renamed to "CAPACITOR NON-POL_GU-CAPCYL20_1".
+#3 WARNING(ORCAP-36006): Part Name "LEDARR-8X8_8X8-LED-TRUOPTO_LEDARR-8X8" is renamed to "LEDARR-8X8_8X8-LED-TRUOPTO_LEDA".
+#4 WARNING(ORCAP-36006): Part Name "CON2_GU-TERMINAL2-200_BATTERY 9V" is renamed to "CON2_GU-TERMINAL2-200_BATTERY 9".
+#5 WARNING(ORCAP-36006): Part Name "SW_SL_SPDT_GU-SW-SLIDE-SPDT_SW_SL_SPDT" is renamed to "SW_SL_SPDT_GU-SW-SLIDE-SPDT_SW_".
+#6 WARNING(ORCAP-36006): Part Name "SW PUSHBUTTON-SPST-2/SM_1_GU-PUSH52_SW PUSHBUTTON-SPST-2/SM" is renamed to "SW PUSHBUTTON-SPST-2/SM_1_GU-PU".
+#7 WARNING(ORCAP-36006): Part Name "FRDM-KL25Z-ARDUINO_GU-FRDM-ARDUINO_FRDM-KL25Z-ARDUINO" is renamed to "FRDM-KL25Z-ARDUINO_GU-FRDM-ARDU".
+#8 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package MAX7221_7 , U8: SCHEMATIC1, PAGE1 (11.10, 5.00).
+#9 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#9" as visible power pin of same name already exists in Package MAX7221_7 , U8: SCHEMATIC1, PAGE1 (11.10, 5.00).
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... H:\DESKTOP\FULL_CIRCUIT\allegro/pstchip.dat
+
+Loading... H:\DESKTOP\FULL_CIRCUIT\allegro/pstchip.dat
+
+Loading... H:\DESKTOP\FULL_CIRCUIT\allegro/pstchip.dat
+
+Loading... H:\DESKTOP\FULL_CIRCUIT\allegro/pstxnet.dat
+packaging the design view...

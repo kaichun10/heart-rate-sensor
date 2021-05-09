@@ -1,0 +1,52 @@
+\t (00:00:20) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:00:20)     Journal start - Fri Mar 13 12:34:17 2020
+\t (00:00:20)         Host=RANK709-14 User=2173845h Pid=8624 CPUs=8
+\t (00:00:20) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:20) 
+\d (00:00:20) Design opened: H:/Desktop/full_circuit/allegro/VGroupV7.brd
+\i (00:00:20) generaledit 
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 184.81 33.06
+\i (00:00:21) trapsize 3571
+\i (00:00:33) open 
+\i (00:00:52) fillin "FULL_CIRCUIT3.brd"
+\t (00:00:52) Opening existing design...
+\i (00:00:52) trapsize 2465
+\d (00:00:52) Design opened: H:/Desktop/full_circuit/allegro/FULL_CIRCUIT3.brd
+\i (00:00:52) generaledit 
+\i (00:01:02) open 
+\i (00:01:23) fillin "VGroupV7.brd"
+\t (00:01:23) Opening existing design...
+\i (00:01:23) trapsize 1786
+\d (00:01:23) Design opened: H:/Desktop/full_circuit/allegro/VGroupV7.brd
+\i (00:01:23) generaledit 
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out 1131.22 -95.51
+\i (00:01:24) trapsize 3571
+\i (00:01:25) zoom in 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom in 1335.57 -274.08
+\i (00:01:25) trapsize 1786
+\i (00:01:26) zoom out 1 
+\i (00:01:26) setwindow pcb
+\i (00:01:26) zoom out 1335.57 -274.07
+\i (00:01:26) trapsize 3571
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 285.59 -374.07
+\i (00:01:27) trapsize 1786
+\i (00:01:27) zoom out 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom out 285.59 -374.07
+\i (00:01:27) trapsize 3571
+\i (00:01:28) zoom in 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) zoom in 285.59 -374.07
+\i (00:01:28) trapsize 1786
+\i (00:01:37) open 
+\i (00:01:48) fillin "menu_cancel"
+\i (00:01:48) generaledit 
+\i (00:01:49) exit 
+\t (00:01:49)     Journal end - Fri Mar 13 12:35:47 2020

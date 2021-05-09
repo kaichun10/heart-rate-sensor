@@ -1,0 +1,100 @@
+\t (00:00:02) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Fri Mar 13 12:36:35 2020
+\t (00:00:02)         Host=RANK709-14 User=2173845h Pid=12436 CPUs=8
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged VGroupV7
+\d (00:00:02) Design opened: H:/Desktop/full_circuit/allegro/VGroupV7.brd
+\i (00:00:02) trapsize 1930
+\i (00:00:02) trapsize 1983
+\i (00:00:02) trapsize 1930
+\i (00:00:02) trapsize 1786
+\i (00:00:02) trapsize 1786
+\i (00:00:02) generaledit 
+\i (00:00:03) zoom out 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom out -1000.87 929.47
+\i (00:00:03) trapsize 3571
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -1221.29 -299.08
+\i (00:00:04) trapsize 1786
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out -1221.29 -299.08
+\i (00:00:04) trapsize 3571
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -1199.87 208.06
+\i (00:00:05) trapsize 1786
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -1199.87 208.06
+\i (00:00:06) trapsize 3571
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged VGroupV7
+\i (00:00:12) open 
+\i (00:00:18) fillin "menu_cancel"
+\i (00:00:18) generaledit 
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in -814.16 1122.33
+\i (00:00:24) trapsize 1786
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out -810.59 1083.05
+\i (00:00:24) trapsize 3571
+\i (00:00:27) delete 
+\i (00:00:28) drag_start grid -2867.70 1875.89
+\i (00:00:29) drag_stop 3253.60 -2545.44
+\i (00:00:30) pick grid -3560.54 1375.90
+\t (00:00:30) last pick:  -3560.00 1380.00
+\i (00:00:32) drag_start grid -3353.40 2218.74
+\i (00:00:33) drag_stop 4725.00 -2466.87
+\i (00:00:35) setwindow form.find
+\i (00:00:35) FORM find shapes YES 
+\i (00:00:36) FORM find cline_segs NO 
+\i (00:00:37) FORM find vias NO 
+\i (00:00:39) setwindow form.mini
+\i (00:00:39) FORM mini delete_net_shapes YES 
+\i (00:00:39) FORM mini delete_net_clines NO 
+\i (00:00:40) FORM mini delete_net_vias NO 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) pick grid -446.32 1190.19
+\t (00:00:40) last pick:  -450.00 1190.00
+\t (00:00:40) Dynamic Shape "Gnd, Boundary/Bottom"
+\i (00:00:41) pick grid -446.32 1190.19
+\t (00:00:41) last pick:  -450.00 1190.00
+\t (00:00:41) Dynamic Shape "Gnd, Boundary/Top"
+\i (00:00:41) pick grid dbl -446.32 1190.19
+\t (00:00:41) last pick:  -450.00 1190.00
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 2403.62 854.48
+\i (00:00:43) trapsize 1786
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 2403.62 854.49
+\i (00:00:43) trapsize 893
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out 2351.84 756.28
+\i (00:00:46) trapsize 1786
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 2355.41 756.28
+\i (00:00:47) trapsize 3571
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 21.54 -7.98
+\i (00:00:47) trapsize 1786
+\i (00:00:48) zoom out 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom out 17.97 -7.98
+\i (00:00:48) trapsize 3571
+\i (00:01:20) exit 
+\e (00:01:20) Do you want to save the changes you made to VGroupV7.brd?
+\i (00:01:23) fillin no 
+\t (00:01:24)     Journal end - Fri Mar 13 12:37:57 2020
